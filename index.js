@@ -25,7 +25,7 @@ async function startJimbruOffical() {
     const JimbruOffical = JimbruOfficalConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Jimbru','Safari','1.0.0'],
+        browser: ['Jimbru Bot-MD V2','Safari','1.0.0'],
         auth: state,
         version
     })
